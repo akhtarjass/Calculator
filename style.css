@@ -1,0 +1,50 @@
+*{
+    font-family: Calibri;
+    color: lightgrey;
+}
+.main{
+    width: 150px;
+    height: 275px;
+    border: solid 2px gray;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: gray;
+}
+img{
+    width: 20px;
+    margin-top: 10px;
+    background-color: gray;
+
+}
+.history{
+    background: gray;
+    color: black;
+    font-size: 10px;
+    height: 7px;
+    border: none;
+}
+.result,.history{
+    width: 95%;
+    /* border-radius: 10px 10px 0px 0px; */
+    /* margin-top: 25px; */
+}
+.btn1{
+    width: 33.3%;
+    height: 40px;
+    float: left;
+    border:none;
+    background-color:rgb(68, 65, 65);
+}
+.btn{
+    width: 25%;
+    height: 40px;
+    border: none;
+    float: left;
+    background-color:rgb(68, 65, 65);
+}
+.bottomRtBtn{
+    border-radius: 0px 0px 15px 0px;
+}
+.bottomLftBtn{
+    border-radius: 0px 0px 0px 15px;
+}

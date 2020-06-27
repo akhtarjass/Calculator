@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div>
+            <div class="set" >
+                <img src="image/set.png" alt="">
+            </div>
+        </div>
+        <div>
+            <input id="hist" class="history"  type="text">
+        </div>
+        <div>
+            <input id="resultNum" class="result" type="text">
+        </div>
+        <div>
+            <button class="btn1" onclick="clearNum(),clearHist()">AC</button>
+            <button class="btn1" onclick="getNumber('%'),getHistory('%')">%</button>
+            <button class="btn1" onclick="getNumber('/'),getHistory('/')">/</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('7'),getHistory('7')">7</button>
+            <button class="btn" onclick="getNumber('8'),getHistory('8')">8</button>
+            <button class="btn" onclick="getNumber('9'),getHistory('9')">9</button>
+            <button class="btn" onclick="getNumber('*'),getHistory('*')">X</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('4'),getHistory('4')">4</button>
+            <button class="btn" onclick="getNumber('5'),getHistory('5')">5</button>
+            <button class="btn" onclick="getNumber('6'),getHistory('6')">6</button>
+            <button class="btn" onclick="getNumber('-'),getHistory('-')">-</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('1'),getHistory('1')">1</button>
+            <button class="btn" onclick="getNumber('2'),getHistory('2')">2</button>
+            <button class="btn" onclick="getNumber('3'),getHistory('3')">3</button>  
+            <button class="btn" onclick="getNumber('+'),getHistory('+')">+</button>
+        </div>
+        <div>
+            <button class="btn bottomLftBtn" onclick="getNumber('0'),getHistory('0')">0</button>
+            <button class="btn" onclick="getNumber('.'),getHistory('.')">.</button>
+            <button class="btn" onclick="delNum(),delHist()">DEL</button>
+            <button class="btn bottomRtBtn" onclick="getResult()" >=</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
